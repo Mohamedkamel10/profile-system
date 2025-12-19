@@ -1,0 +1,8 @@
+body{font-family:Cairo,sans-serif;background:#f0f0f0;display:flex;justify-content:center;padding:40px}
+.profile-card{background:#fff;width:400px;border-radius:20px;overflow:hidden}
+.header-img{height:180px;background:#ccc}
+.profile-pic{width:120px;height:120px;border-radius:50%;background:#999;margin:-60px auto 10px}
+.content{text-align:center;padding:20px}
+.name{font-size:22px;font-weight:bold}
+.job{color:#666}
+.place{color:#999}
