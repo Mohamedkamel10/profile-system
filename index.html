@@ -1,21 +1,44 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Profile</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
 </head>
 <body>
-<div class="profile-card">
-  <div class="header-img"></div>
-  <div class="profile-pic"></div>
-  <div class="content">
-    <div class="name" id="name"></div>
-    <div class="job" id="job"></div>
-    <div class="place" id="place"></div>
+
+  <div class="card">
+    <div class="cover" id="cover"></div>
+
+    <div class="avatar">
+      <img id="avatar" />
+    </div>
+
+    <h2 id="name"></h2>
+    <p class="job" id="job"></p>
+    <p class="place" id="place"></p>
+
+    <div class="actions">
+      <a id="email"><i class="fa-solid fa-envelope"></i></a>
+      <a id="phone"><i class="fa-solid fa-phone"></i></a>
+    </div>
+
+    <button class="save">Save Contact</button>
+
+    <div class="socials">
+      <a id="whatsapp"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></a>
+      <a id="facebook"><i class="fa-brands fa-facebook"></i><span>Facebook</span></a>
+      <a id="instagram"><i class="fa-brands fa-instagram"></i><span>Instagram</span></a>
+      <a id="tiktok"><i class="fa-brands fa-tiktok"></i><span>TikTok</span></a>
+    </div>
   </div>
-</div>
-<script src="app.js"></script>
+
+  <script src="app.js"></script>
 </body>
 </html>
