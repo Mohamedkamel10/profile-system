@@ -1,0 +1,18 @@
+{
+  "name": "Mohamed Kamel",
+  "job": "Programmer",
+  "place": "Energya Company",
+
+  "avatar": "assets/images/avatar.jpg",
+  "cover": "assets/images/cover.jpg",
+
+  "phone": "+201234567890",
+  "email": "mohamed@email.com",
+
+  "socials": {
+    "whatsapp": "https://wa.me/+966543001921",
+    "facebook": "https://facebook.com/mohamed",
+    "instagram": "https://instagram.com/mohamed",
+    "tiktok": "https://tiktok.com/@mohamed"
+  }
+}
