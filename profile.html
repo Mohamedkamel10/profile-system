@@ -1,8 +1,0 @@
-<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Profile</title>
-<style>body{margin:0;font-family:sans-serif;background:#f5f5f5;text-align:center}.card{background:white;width:90%;max-width:400px;margin:20px auto;border-radius:15px;box-shadow:0 0 10px #0002;overflow:hidden}.cover{width:100%;height:150px;object-fit:cover}.avatar{width:120px;height:120px;border-radius:50%;margin-top:-60px;border:4px solid white;object-fit:cover}h2{margin:10px 0}.icons a,.socials a{display:inline-block;margin:5px;padding:8px 12px;background:#eee;border-radius:8px;text-decoration:none;color:#000}</style></head>
-<body><div id="profile">Loading...</div><script>
-async function loadProfile(){const u=new URLSearchParams(window.location.search).get("u");const users=await (await fetch("users.json")).json();const user=users.find(x=>x.username===u);if(!user){profile.innerHTML="<h2>❌ User Not Found</h2>";return;}
-profile.innerHTML=`<div class="card"><img class="cover" src="${user.cover}"><img class="avatar" src="${user.avatar}"><h2>${user.name}</h2><p>${user.job} - ${user.company}</p>
-<div class="icons"><a href="tel:${user.phone}">📞 اتصال</a><a href="mailto:${user.email}">📩 إيميل</a></div>
-<div class="socials"><a href="${user.whatsapp}">واتساب</a><a href="${user.facebook}">فيسبوك</a><a href="${user.instagram}">انستجرام</a><a href="${user.tiktok}">تيك توك</a></div></div>`;}
-loadProfile();</script></body></html>
